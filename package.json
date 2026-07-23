@@ -1,0 +1,25 @@
+{
+  "name": "opus_portfolio",
+  "version": "1.0.0",
+  "description": "Sahul Hameed — Freelance Web Developer & SEO Expert Portfolio Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "freelancer",
+    "portfolio",
+    "web development",
+    "resume writing",
+    "SEO"
+  ],
+  "author": "Sahul Hameed",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "body-parser": "^2.3.0",
+    "ejs": "^6.0.1",
+    "express": "^5.2.1"
+  }
+}

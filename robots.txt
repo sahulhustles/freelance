@@ -1,0 +1,12 @@
+# Robots.txt for sahulhustler.com
+# Allow all crawlers to access all content
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://sahulhustler.com/sitemap.xml
+
+# Disallow admin/system paths
+Disallow: /cgi-bin/
+
