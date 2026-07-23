@@ -350,27 +350,23 @@
                 </div>
                 <div class="services-grid">
 
-                    <article class="service-card ">
+                    <article class="service-card">
                         <div class="service-icon" aria-hidden="true">
                             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                <circle cx="11" cy="11" r="8" />
-                                <path d="m21 21-4.3-4.3" />
+                                <circle cx="12" cy="12" r="10" />
+                                <line x1="2" y1="12" x2="22" y2="12" />
+                                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
                             </svg>
                         </div>
                         <h3>SEO Portfolio Website</h3>
                         <p>Fully Customized portfolio websites built with SEO best practices, responsive design, and
                             modern aesthetics for your need to showcase your work and attract clients online.</p>
                         <ul class="service-features">
-
                             <li>SEO Optimized</li>
-
                             <li>Mobile Responsive</li>
-
                             <li>Contact Integration</li>
-
                             <li>Fast Loading</li>
-
                         </ul>
                         <a href="portfolio-website/index.html" class="service-link">View Plans →</a>
                     </article>
@@ -379,50 +375,62 @@
                         <div class="service-icon" aria-hidden="true">
                             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                <circle cx="11" cy="11" r="8" />
-                                <path d="m21 21-4.3-4.3" />
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                                <polyline points="14 2 14 8 20 8" />
+                                <line x1="16" y1="13" x2="8" y2="13" />
+                                <line x1="16" y1="17" x2="8" y2="17" />
+                                <polyline points="10 9 9 9 8 9" />
                             </svg>
                         </div>
                         <h3>Resume Writing</h3>
                         <p>Professional resume writing services — ATS-friendly formats designed to help you stand out
                             from the competition and land more interviews.</p>
                         <ul class="service-features">
-
                             <li>ATS Friendly</li>
-
                             <li>Professional Layout</li>
-
                             <li>Multiple Designs</li>
-
                             <li>Quick Delivery</li>
-
                         </ul>
                         <a href="resume-writing/index.html" class="service-link">View Plans →</a>
                     </article>
 
-                    <article class="service-card ">
+                    <article class="service-card">
                         <div class="service-icon" aria-hidden="true">
                             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                <circle cx="11" cy="11" r="8" />
-                                <path d="m21 21-4.3-4.3" />
+                                <polyline points="16 18 22 12 16 6" />
+                                <polyline points="8 6 2 12 8 18" />
                             </svg>
                         </div>
                         <h3>Development (Project Helps)</h3>
                         <p>All Types of college projects, mini projects, bug fixes, and deployment delivered on time
                             with complete source code and documentation.</p>
                         <ul class="service-features">
-
                             <li>Mini &amp; College Projects</li>
-
                             <li>Bug Fixing</li>
-
                             <li>Deployment Help</li>
-
                             <li>Hourly or Fixed Rate</li>
-
                         </ul>
                         <a href="web-development/index.html" class="service-link">View Plans →</a>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M12 20h9" />
+                                <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
+                            </svg>
+                        </div>
+                        <h3>SEO Content Writing</h3>
+                        <p>High-quality, search-engine-optimized content designed to improve visibility, attract organic traffic, and deeply engage readers.</p>
+                        <ul class="service-features">
+                            <li>Technical &amp; SEO Blogs</li>
+                            <li>Landing Page Copywriting</li>
+                            <li>Keyword Research</li>
+                            <li>CTA &amp; Conversion Copy</li>
+                        </ul>
+                        <a href="seo-content-writing/index.html" class="service-link">View Plans →</a>
                     </article>
 
                 </div>
@@ -446,6 +454,8 @@
                         aria-controls="panel-resume" id="tab-resume">Resume</button>
                     <button class="tab-btn" data-tab="webdev" role="tab" aria-selected="false"
                         aria-controls="panel-webdev" id="tab-webdev">Projects Help</button>
+                    <button class="tab-btn" data-tab="contentwriting" role="tab" aria-selected="false"
+                        aria-controls="panel-contentwriting" id="tab-contentwriting">SEO Content</button>
                 </div>
 
                 <!-- Portfolio Pricing -->
@@ -677,6 +687,64 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- SEO Content Writing Pricing -->
+                <div class="pricing-panel" id="panel-contentwriting" role="tabpanel" aria-labelledby="tab-contentwriting">
+                    <div class="pricing-grid pricing-grid-3">
+                        <div class="price-card">
+                            <div class="price-header">
+                                <h3>Basic Plan</h3>
+                                <p class="price-desc">Single article or blog post</p>
+                            </div>
+                            <div class="price-amount">
+                                <span class="currency">₹</span><span class="amount">499</span>
+                            </div>
+                            <ul class="price-features">
+                                <li class="included"><span class="check" aria-hidden="true">✓</span> 1 SEO Blog Article (up to 1,000 words)</li>
+                                <li class="included"><span class="check" aria-hidden="true">✓</span> Target Keyword Integration</li>
+                                <li class="included"><span class="check" aria-hidden="true">✓</span> Meta Title &amp; Description</li>
+                                <li class="included"><span class="check" aria-hidden="true">✓</span> Plagiarism-Free Guarantee</li>
+                                <li class="included"><span class="check" aria-hidden="true">✓</span> 1 Revision</li>
+                            </ul>
+                            <a href="#contact" class="btn btn-card">Order Now</a>
+                        </div>
+                        <div class="price-card popular">
+                            <div class="popular-badge">Best Value</div>
+                            <div class="price-header">
+                                <h3>Pro Plan</h3>
+                                <p class="price-desc">For growing businesses</p>
+                            </div>
+                            <div class="price-amount">
+                                <span class="currency">₹</span><span class="amount">1,499</span>
+                            </div>
+                            <ul class="price-features">
+                                <li class="included"><span class="check" aria-hidden="true">✓</span> 3 SEO Articles / Landing Page Copy</li>
+                                <li class="included"><span class="check" aria-hidden="true">✓</span> Comprehensive Keyword Research</li>
+                                <li class="included"><span class="check" aria-hidden="true">✓</span> Convincing CTA Copy</li>
+                                <li class="included"><span class="check" aria-hidden="true">✓</span> Technical SEO Audit</li>
+                                <li class="included"><span class="check" aria-hidden="true">✓</span> 2 Revisions</li>
+                            </ul>
+                            <a href="#contact" class="btn btn-primary btn-card">Order Now</a>
+                        </div>
+                        <div class="price-card">
+                            <div class="price-header">
+                                <h3>Premium Plan</h3>
+                                <p class="price-desc">Complete content strategy</p>
+                            </div>
+                            <div class="price-amount">
+                                <span class="currency">₹</span><span class="amount">2,999</span>
+                            </div>
+                            <ul class="price-features">
+                                <li class="included"><span class="check" aria-hidden="true">✓</span> 5 Articles or Full Website Copy</li>
+                                <li class="included"><span class="check" aria-hidden="true">✓</span> Competitor Content &amp; Keyword Audit</li>
+                                <li class="included"><span class="check" aria-hidden="true">✓</span> Product Descriptions &amp; Landing Pages</li>
+                                <li class="included"><span class="check" aria-hidden="true">✓</span> High-Converting Sales Copy</li>
+                                <li class="included"><span class="check" aria-hidden="true">✓</span> Unlimited Revisions</li>
+                            </ul>
+                            <a href="#contact" class="btn btn-card">Order Now</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -847,6 +915,9 @@
                                 <option value="Web Dev - College Project">Web Dev – College Project</option>
                                 <option value="Web Dev - Deployment">Web Dev – Deployment</option>
                                 <option value="Web Dev - Bug Fix">Web Dev – Bug Fix</option>
+                                <option value="SEO Content - Basic">SEO Content Writing – Basic (₹499)</option>
+                                <option value="SEO Content - Pro">SEO Content Writing – Pro (₹1,499)</option>
+                                <option value="SEO Content - Premium">SEO Content Writing – Premium (₹2,999)</option>
                                 <option value="Other">Other</option>
                             </select>
                         </div>
@@ -897,6 +968,7 @@
                                 <li><a href="portfolio-website/index.html">Portfolio Website</a></li>
                                 <li><a href="web-development/index.html">Web Development</a></li>
                                 <li><a href="resume-writing/index.html">Resume Writing</a></li>
+                                <li><a href="seo-content-writing/index.html">SEO Content Writing</a></li>
                             </ul>
                         </div>
                     </nav>

@@ -554,8 +554,8 @@ img {
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
 }
 
 .service-card {
@@ -565,6 +565,8 @@ img {
     padding: 32px 28px;
     transition: var(--transition);
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .service-card:hover {
@@ -627,6 +629,8 @@ img {
     font-weight: 600;
     color: var(--accent);
     transition: var(--transition);
+    margin-top: auto;
+    display: inline-block;
 }
 
 .service-link:hover {

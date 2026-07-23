@@ -107,6 +107,7 @@ Simply open `index.html` in any modern web browser or serve via Live Server.
 | **SEO Portfolio Website** | ₹999 (1 Page, Free Hosting) | ₹2,999 (Custom Domain, Full SEO) | ₹4,999 (Admin Panel, Blog, Support) |
 | **ATS Resume Writing** | ₹299 (ATS Layout, PDF) | ₹599 (Custom Design, PDF + DOCX) | ₹999 (Executive, Cover Letter, LinkedIn) |
 | **Web Dev / Project Help** | ₹1,000–3,000 (Mini Projects) | ₹3,000–8,000 (College Projects) | ₹300/hr (Bug Fixing) / ₹500+ (Deployment) |
+| **SEO Content Writing** | ₹499 (1 Article / 1k words) | ₹1,499 (3 Articles / Landing Page) | ₹2,999 (5 Articles / Full Content Strategy) |
 
 ---
 
